@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="formulaire.css" type="text/css"/>
+	<title>Oaris.fr</title>
+</head>
+
+
+<body>
+	<header>
+		<!-- <a href="accueil.html"><img src="logo.JPG" width="100" height="100"/></a> -->
+		<a href="accueil.html"><spam id="logo"></spam></a>
+		<h2 class="titre">Oaris Team's</h2>
+		</header>
+	<nav>
+			<ul>
+				<li><a href="accueil.html">accueil</a></li>
+				<li><a href="page perso.html">Page perso</a></li>
+				<li><a href="Germain.html">Ralph Baer</a></li>
+				<li><a href="Les consoles.html">Les consoles</a></li>
+				<li><a href="formulaire.html">formulaire</a></li>
+			</ul>
+		</nav>
+
+
+	<div id="globals">
+
+	<section class="articles">
+		<h2> Infos personelles</h2>
+		<h4>
+		<label>Civilité</label>
+		<input type="radio" name="choix" value="Homme" checked="checked" /> Homme
+		<input type="radio" name="choix" value="Femme"  /> Femme
+		<br>
+	<label for="Nom" >Votre nom </label>
+	<input type="text" name="Nom" size="30"/><br>
+	<label for="Prenom" >Votre Prenom</label>
+	<input type="text" name="Prénom" size="30"/><br>
+	<label> Deplacez lecurseur pour doner votr age
+	<input type="range" max="125" min="10" step="1" name="age"/>
+	</label>
+	<br>
+	<label>Votre numéro de téléphone
+	<input type="password" name="code" size="30" required /><br>
+	</label>
+	<input type="date"/>
+</h4>
+<table style="border:3px solid black" border=1>
+
+
+					<h2> A quels jeux jouez-vous?</h2>
+					<h5>
+					<label>
+					<input type="checkbox" name="Activite" value="Jeux"/> Apex Legend
+					</label><br>
+					<label>
+					<input type="checkbox" name="Activite" value="Jeux"/> Rocket League
+					</label><br>
+					<label>
+					<input type="checkbox" name="Activite" value="Jeux"/> Fortnite
+					</label><br>
+					<label>
+					<input type="checkbox" name="Activite" value="Jeux"/> Call Of
+					</label><br>
+
+			<label>niveau</label>
+			<select name="niveau">
+			<option value="recrue/novice" selected="selected">recrue/novice</option>
+			<option value="bronze">bronze</option>
+			<option value="argent">argent</option>
+			<option value="platine">platine</option>
+			<option value="or">or</option>
+			<option value="diamant">diamant</option>
+			<option value="master/champion">master/champion</option>
+			<option value="Préda/SSL/GC">Préda/SSL/GC</option>
+			</select>
+			<br>
+			<label>Votre CB
+			<input type="password" name="code" size="30" required /><br>
+			</label>
+		</h5>
+		<h6>
+			<input type="submit" name="envoi" value"Envoyer ma demande"/>
+			<input type="reset" name="effacer" value"Vider les données"/>
+		</h6>
+	</section>
+
+	</div>
+
+
+
+<footer>
+@2021-2022 Senghor
+</footer>
+
+</body>
+
+
+</html>
